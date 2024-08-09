@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #000000;
+}
+
+#welcomeButton {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #50891f;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#welcomeButton button {
+    padding: 10px 20px;
+    background-color: #e8f354;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#welcomeButton button:hover {
+    background-color: #23ca34;
+}
+
+header {
+    background-color: #50891f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+h1,
+h2 {
+    color: #000000;
+}
+
+#introduction {
+    margin-bottom: 30px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+#interaction .buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#interaction button {
+    padding: 10px 20px;
+    background-color: #50891f;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1em;
+}
+
+#interaction button:hover {
+    background-color: #50891f;
+}
+
+#infoSection {
+    background-color: #efffb5;
+    padding: 20px;
+    border-radius: 8px;
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .image-container img {
+        width: 100%;
+    }
+
+    #interaction .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #interaction button {
+        margin-bottom: 10px;
+    }
+}

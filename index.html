@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Importância do Milho para as Grandes Cidades</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>O Papel do Milho nas Grandes Cidades</h1>
+        <section id="welcomeButton">
+            <button onclick="welcomeMessage()">Clique aqui para uma mensagem de boas-vindas</button>
+        </section>
+    </header>
+        <section id="introduction">
+            <h2>Por que o milho é essencial?</h2>
+            <p>O milho é um dos grãos mais importantes do mundo, sendo fundamental tanto para a alimentação humana
+                quanto para a produção de ração animal. Além disso, é utilizado na fabricação de diversos produtos
+                industrializados, o que o torna indispensável para a economia e para o abastecimento das grandes
+                cidades.</p>
+        </section>
+
+        <section id="gallery">
+            <h2>Galeria de Imagens</h2>
+            <div class="image-container">
+                <img src="lavoura-de-milho-optimized.webp" alt="Plantação de Milho">
+                <img src="shutterstock_159894728-1-scaled.jpg" alt="Milho em Mercado">
+                <img src="unnamed.jpg" alt="Produto Derivado do Milho">
+            </div>
+        </section>
+
+        <section id="interaction">
+            <h2>Saiba Mais</h2>
+            <p>Clique nos botões abaixo para aprender mais sobre como o milho impacta diferentes setores nas cidades:
+            </p>
+            <div class="buttons">
+                <button onclick="showInfo('alimentacao')">Alimentação</button>
+                <button onclick="showInfo('industria')">Indústria</button>
+                <button onclick="showInfo('economia')">Economia</button>
+            </div>
+            <div id="infoSection"></div>
+        </section>
+
+        </main>
+        <script src="script.js"></script>
+</body>
+
+</html>
